@@ -15,22 +15,33 @@ public class HW3 {
 //	}
 	
 	public static void main(String[] args) {
-		int i;
-		double d;
 		System.out.println("請輸入三個整數:");
-		Scanner sc =new Scanner(System.in);
-		System.out.println();
-		HW3 a =new HW3() ;
-		if (sc.hasNextInt()) {
-			i=sc.nextInt();
-			System.out.println(i);
+		Scanner s =new Scanner(System.in);
+		while(s.hasNext()){
+			if(s.hasNextInt()) {
+				System.out.println(s.next());
+			}
+			
+		    System.out.println("not int");
 		}
-		else if(sc.hasNextDouble()) {
-			d=sc.nextDouble();
-			System.out.println(d);
-		}
-		else {
-			System.out.println("請重新輸入");
-		}
+		s.close();
+//		int i;
+//		double d;
+//		System.out.println("請輸入三個整數:");
+//		Scanner sc =new Scanner(System.in);
+//		System.out.println();
+//		HW3 a =new HW3() ;
+//
+//		if (sc.hasNextInt()) {
+//			i=sc.nextInt();
+//			System.out.println(i);
+//		}
+//		else if(sc.hasNextDouble()) {
+//			d=sc.nextDouble();
+//			System.out.println(d);
+//		}
+//		else {
+//			System.out.println("請重新輸入");
+//		}
 	}
 }
