@@ -24,6 +24,7 @@ public class HW3 {
 			
 		    System.out.println("not int");
 		    System.out.println("===");
+		    System.out.println("==dddd=");
 		}
 		s.close();
 //		int i;
