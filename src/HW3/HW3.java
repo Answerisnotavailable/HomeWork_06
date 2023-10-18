@@ -23,7 +23,7 @@ public class HW3 {
 			}
 			
 		    System.out.println("not int");
-		    System.out.println("===");
+		    System.out.println("mastertest");
 		    System.out.println("==dddd=");
 		}
 		s.close();
