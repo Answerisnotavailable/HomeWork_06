@@ -23,6 +23,7 @@ public class HW3 {
 			}
 			
 		    System.out.println("not int");
+		    System.out.println("===");
 		}
 		s.close();
 //		int i;
