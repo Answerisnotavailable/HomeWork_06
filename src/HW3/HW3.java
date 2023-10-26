@@ -17,7 +17,6 @@ public class HW3 {
 			} else {
 				System.out.println(s.next() + "不是整數，請重新輸入:");
 			}
-
 		}
 		return a;
 	}
